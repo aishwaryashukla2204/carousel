@@ -1,4 +1,4 @@
-# carousel
+# React Product Carousel
 
 Simple overview of use/purpose.
 
