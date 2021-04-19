@@ -1,0 +1,76 @@
+/*Product Card*/
+.product-card:nth-child(2) {
+  width: 45vh;
+  height: 61vh;
+  font-size: 2.5vh;
+  padding-bottom: 3vh;
+}
+.product-card:nth-child(2) .product-card-img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+}
+.product-card {
+  height: 50vh;
+  width: 30%;
+  border-radius: 10px;
+  /* margin-top: 20vh; */
+  font-size: 2vh;
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.5);
+  margin: 2vw;
+  -webkit-animation: slide 5s forwards;
+  -webkit-animation-delay: 2s;
+  animation: slide 2s forwards;
+  animation-delay: 2s;
+}
+.product-card-img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-size: cover;
+  /* background-position: 0% 20%; */
+  background-repeat: no-repeat;
+  height: 35vh;
+}
+@-webkit-keyframes slide {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 200px;
+  }
+}
+
+@keyframes slide {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 200px;
+  }
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+
+  display: flex;
+  justify-content: space-between;
+  padding: 2vh;
+}
+.name-category {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.name-category div {
+  padding-top: 2vh
+}
